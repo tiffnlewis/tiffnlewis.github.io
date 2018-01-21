@@ -1,0 +1,167 @@
+body {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	font-family: "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+}
+
+header {
+	background-color: #ffffff;
+	font-family: "Georgia", "Times", "Times New Roman", serif;
+	height: 100px;
+	margin: 0;
+	border-bottom-color: #cccccc;
+	border-bottom-style: solid;	
+}
+
+h1 {
+	background-color: #4aaaa5;
+	width: 400px;
+	height: 100px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 100px;
+	margin: auto;
+	margin-left: 100px;
+	float: left;
+	overflow: auto;
+
+}
+
+h2 {
+	color: #4aaaa5;
+	font-family: "Georgia", "Times", "Times New Roman", serif;
+	margin: 20px;
+}
+
+ul {
+	list-style-type: none;
+	color: #777777;
+	margin: auto;
+	padding: 60px;
+	width: 270px;
+	clear: right;
+	float: right;
+	font-family: "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font-size: 20px;
+}
+
+li {
+	display: inline;
+}
+
+.container {
+	margin-left: 100px;	
+	margin-right: 100px;
+	clear: both;
+	height: auto;
+}
+
+#bioImage {
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin: 10px 20px 20px 0px;
+}
+
+#aboutMe {
+	background-color: #ffffff;
+	width: 650px;
+	padding: 20px;
+	margin-top: 20px;
+	float: left;
+	overflow: auto;
+}
+
+#connect {
+width: 270px;
+float: right;
+clear: right;
+background-color: #ffffff;
+align-content: center;
+}
+
+a {
+	padding: 20px;
+	align-content: center;
+}
+
+p {
+font-family: "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+color: #777777;
+line-height: 20px;
+}
+
+#portfolio {
+	background-color: #ffffff;
+	width: 650px;
+	padding: 20px;
+	margin-top: 20px;
+	float: left;
+	overflow: auto;
+}
+
+#hangman {
+	position: absolute;
+	float: left;
+	clear: right;
+}
+
+
+#rpg {
+	position: relative;
+	float: right;
+	clear: right;
+}
+
+
+#trivia {
+	position: relative;
+	float: left;
+	clear: right;
+}
+
+#widget {
+	position: relative;
+	float: right;
+	clear: right;
+}
+
+#rock {
+	position: relative;
+	float: left;
+	clear: right;
+}
+.name {
+	padding: 10px;
+	padding-color: #4aaaa5;
+	font-color: #ffffff;
+	font-size: 15px;
+	font-family: "Georgia", "Times", "Times New Roman", serif;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
+#form {
+	background-color: #ffffff;
+	width: 650px;
+	padding: 20px;
+	margin-top: 20px;
+	float: left;
+	overflow: auto;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 12px;
+    line-height: 30px;
+    background-color: #666666;
+    color: #ffffff;
+    text-align: center;
+    border-top-color: #4aaaa5;
+    border-top-style: solid;
+}
