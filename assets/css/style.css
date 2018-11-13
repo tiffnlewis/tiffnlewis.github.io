@@ -3,6 +3,7 @@ body {
 	margin: 0;
 	border: 0;
 	font-family: "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	
 }
 
 header {
@@ -39,7 +40,7 @@ ul {
 	color: #777777;
 	margin: auto;
 	padding: 60px;
-	width: 270px;
+	width: auto;
 	clear: right;
 	float: right;
 	font-family: "Arial", "Helvetica Neue", "Helvetica", sans-serif;
@@ -61,7 +62,8 @@ li {
 	width: 200px;
 	height: 200px;
 	float: left;
-	margin: 10px 20px 20px 0px;
+	margin: 10px 20px 10px 0px;
+	
 }
 
 #aboutMe {
@@ -133,14 +135,16 @@ line-height: 20px;
 	clear: right;
 }
 .name {
-	padding: 10px;
-	padding-color: #4aaaa5;
-	font-color: #ffffff;
-	font-size: 15px;
+	padding: 10px 20px 10px 20px;
+	width: 160px;
+	margin-top: 70px;
+	background-color: #4aaaa5;
+	text-align: center;
+	color: white;
+	font-size: 20px;
 	font-family: "Georgia", "Times", "Times New Roman", serif;
 	position: absolute;
-	top: 50%;
-	left: 50%;
+	top: 30%;
 }
 
 #form {
